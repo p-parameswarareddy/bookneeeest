@@ -1,0 +1,45 @@
+
+---
+
+## 🚫 `.gitignore`
+
+This file prevents unnecessary or sensitive files from being committed to GitHub.
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Virtualenv
+venv/
+env/
+ENV/
+
+# Django
+*.pyc
+db.sqlite3
+*.log
+*.pot
+*.py[cod]
+*.mo
+
+# VS Code
+.vscode/
+
+# Docker
+*.env
+*.pid
+*.db
+*.tar
+*.sock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jenkins
+*.xml
+*.hpi
+*.jpi
